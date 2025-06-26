@@ -1,6 +1,6 @@
 // src/microservice.cpp
 #include "../include/microservice.hpp"
-#include "../include/microservice_private.hpp"
+#include "microservice_private.hpp"
 
 Microservice::Microservice(unsigned short port, RequestHandler* handler) 
   : pimpl(new Impl(port, handler)) {}
