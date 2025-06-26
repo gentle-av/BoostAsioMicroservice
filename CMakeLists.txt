@@ -11,6 +11,9 @@ if(CMAKE_VERSION VERSION_GREATER_EQUAL 3.20)
     set(CMAKE_CXX_SCAN_FOR_MODULES ON)
 endif()
 
+# генерация compile_commands.json
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Поиск Boost (только для реализации)
 find_package(Boost 1.75 REQUIRED COMPONENTS system)
 
