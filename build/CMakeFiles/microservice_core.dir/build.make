@@ -72,10 +72,24 @@ include CMakeFiles/microservice_core.dir/flags.make
 CMakeFiles/microservice_core.dir/codegen:
 .PHONY : CMakeFiles/microservice_core.dir/codegen
 
+CMakeFiles/microservice_core.dir/src/request_handler.cpp.o: CMakeFiles/microservice_core.dir/flags.make
+CMakeFiles/microservice_core.dir/src/request_handler.cpp.o: /home/avr/code/projects/cpp/BoostAsioMicroservice/src/request_handler.cpp
+CMakeFiles/microservice_core.dir/src/request_handler.cpp.o: CMakeFiles/microservice_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/microservice_core.dir/src/request_handler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/microservice_core.dir/src/request_handler.cpp.o -MF CMakeFiles/microservice_core.dir/src/request_handler.cpp.o.d -o CMakeFiles/microservice_core.dir/src/request_handler.cpp.o -c /home/avr/code/projects/cpp/BoostAsioMicroservice/src/request_handler.cpp
+
+CMakeFiles/microservice_core.dir/src/request_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/microservice_core.dir/src/request_handler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/avr/code/projects/cpp/BoostAsioMicroservice/src/request_handler.cpp > CMakeFiles/microservice_core.dir/src/request_handler.cpp.i
+
+CMakeFiles/microservice_core.dir/src/request_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/microservice_core.dir/src/request_handler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avr/code/projects/cpp/BoostAsioMicroservice/src/request_handler.cpp -o CMakeFiles/microservice_core.dir/src/request_handler.cpp.s
+
 CMakeFiles/microservice_core.dir/src/microservice.cpp.o: CMakeFiles/microservice_core.dir/flags.make
 CMakeFiles/microservice_core.dir/src/microservice.cpp.o: /home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice.cpp
 CMakeFiles/microservice_core.dir/src/microservice.cpp.o: CMakeFiles/microservice_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/microservice_core.dir/src/microservice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/microservice_core.dir/src/microservice.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/microservice_core.dir/src/microservice.cpp.o -MF CMakeFiles/microservice_core.dir/src/microservice.cpp.o.d -o CMakeFiles/microservice_core.dir/src/microservice.cpp.o -c /home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice.cpp
 
 CMakeFiles/microservice_core.dir/src/microservice.cpp.i: cmake_force
@@ -86,10 +100,24 @@ CMakeFiles/microservice_core.dir/src/microservice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/microservice_core.dir/src/microservice.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice.cpp -o CMakeFiles/microservice_core.dir/src/microservice.cpp.s
 
+CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o: CMakeFiles/microservice_core.dir/flags.make
+CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o: /home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice_private.cpp
+CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o: CMakeFiles/microservice_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o -MF CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o.d -o CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o -c /home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice_private.cpp
+
+CMakeFiles/microservice_core.dir/src/microservice_private.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/microservice_core.dir/src/microservice_private.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice_private.cpp > CMakeFiles/microservice_core.dir/src/microservice_private.cpp.i
+
+CMakeFiles/microservice_core.dir/src/microservice_private.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/microservice_core.dir/src/microservice_private.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice_private.cpp -o CMakeFiles/microservice_core.dir/src/microservice_private.cpp.s
+
 CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o: CMakeFiles/microservice_core.dir/flags.make
 CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o: /home/avr/code/projects/cpp/BoostAsioMicroservice/src/echo_handler.cpp
 CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o: CMakeFiles/microservice_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o -MF CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o.d -o CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o -c /home/avr/code/projects/cpp/BoostAsioMicroservice/src/echo_handler.cpp
 
 CMakeFiles/microservice_core.dir/src/echo_handler.cpp.i: cmake_force
@@ -103,7 +131,7 @@ CMakeFiles/microservice_core.dir/src/echo_handler.cpp.s: cmake_force
 CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o: CMakeFiles/microservice_core.dir/flags.make
 CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o: /home/avr/code/projects/cpp/BoostAsioMicroservice/src/calculator_handler.cpp
 CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o: CMakeFiles/microservice_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o -MF CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o.d -o CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o -c /home/avr/code/projects/cpp/BoostAsioMicroservice/src/calculator_handler.cpp
 
 CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.i: cmake_force
@@ -116,19 +144,23 @@ CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.s: cmake_force
 
 # Object files for target microservice_core
 microservice_core_OBJECTS = \
+"CMakeFiles/microservice_core.dir/src/request_handler.cpp.o" \
 "CMakeFiles/microservice_core.dir/src/microservice.cpp.o" \
+"CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o" \
 "CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o" \
 "CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o"
 
 # External object files for target microservice_core
 microservice_core_EXTERNAL_OBJECTS =
 
+libmicroservice_core.a: CMakeFiles/microservice_core.dir/src/request_handler.cpp.o
 libmicroservice_core.a: CMakeFiles/microservice_core.dir/src/microservice.cpp.o
+libmicroservice_core.a: CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o
 libmicroservice_core.a: CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o
 libmicroservice_core.a: CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o
 libmicroservice_core.a: CMakeFiles/microservice_core.dir/build.make
 libmicroservice_core.a: CMakeFiles/microservice_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libmicroservice_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libmicroservice_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/microservice_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/microservice_core.dir/link.txt --verbose=$(VERBOSE)
 

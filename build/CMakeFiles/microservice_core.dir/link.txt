@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmicroservice_core.a CMakeFiles/microservice_core.dir/src/microservice.cpp.o CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o
+/usr/bin/ar qc libmicroservice_core.a CMakeFiles/microservice_core.dir/src/request_handler.cpp.o CMakeFiles/microservice_core.dir/src/microservice.cpp.o CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o CMakeFiles/microservice_core.dir/src/echo_handler.cpp.o CMakeFiles/microservice_core.dir/src/calculator_handler.cpp.o
 /usr/bin/ranlib libmicroservice_core.a

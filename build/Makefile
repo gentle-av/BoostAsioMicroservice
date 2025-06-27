@@ -238,6 +238,54 @@ src/microservice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/microservice_core.dir/build.make CMakeFiles/microservice_core.dir/src/microservice.cpp.s
 .PHONY : src/microservice.cpp.s
 
+src/microservice_private.o: src/microservice_private.cpp.o
+.PHONY : src/microservice_private.o
+
+# target to build an object file
+src/microservice_private.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/microservice_core.dir/build.make CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o
+.PHONY : src/microservice_private.cpp.o
+
+src/microservice_private.i: src/microservice_private.cpp.i
+.PHONY : src/microservice_private.i
+
+# target to preprocess a source file
+src/microservice_private.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/microservice_core.dir/build.make CMakeFiles/microservice_core.dir/src/microservice_private.cpp.i
+.PHONY : src/microservice_private.cpp.i
+
+src/microservice_private.s: src/microservice_private.cpp.s
+.PHONY : src/microservice_private.s
+
+# target to generate assembly for a file
+src/microservice_private.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/microservice_core.dir/build.make CMakeFiles/microservice_core.dir/src/microservice_private.cpp.s
+.PHONY : src/microservice_private.cpp.s
+
+src/request_handler.o: src/request_handler.cpp.o
+.PHONY : src/request_handler.o
+
+# target to build an object file
+src/request_handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/microservice_core.dir/build.make CMakeFiles/microservice_core.dir/src/request_handler.cpp.o
+.PHONY : src/request_handler.cpp.o
+
+src/request_handler.i: src/request_handler.cpp.i
+.PHONY : src/request_handler.i
+
+# target to preprocess a source file
+src/request_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/microservice_core.dir/build.make CMakeFiles/microservice_core.dir/src/request_handler.cpp.i
+.PHONY : src/request_handler.cpp.i
+
+src/request_handler.s: src/request_handler.cpp.s
+.PHONY : src/request_handler.s
+
+# target to generate assembly for a file
+src/request_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/microservice_core.dir/build.make CMakeFiles/microservice_core.dir/src/request_handler.cpp.s
+.PHONY : src/request_handler.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -260,6 +308,12 @@ help:
 	@echo "... src/microservice.o"
 	@echo "... src/microservice.i"
 	@echo "... src/microservice.s"
+	@echo "... src/microservice_private.o"
+	@echo "... src/microservice_private.i"
+	@echo "... src/microservice_private.s"
+	@echo "... src/request_handler.o"
+	@echo "... src/request_handler.i"
+	@echo "... src/request_handler.s"
 .PHONY : help
 
 
