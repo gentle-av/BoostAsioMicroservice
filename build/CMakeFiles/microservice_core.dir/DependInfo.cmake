@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice.cpp" "CMakeFiles/microservice_core.dir/src/microservice.cpp.o" "gcc" "CMakeFiles/microservice_core.dir/src/microservice.cpp.o.d"
   "/home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice_private.cpp" "CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o" "gcc" "CMakeFiles/microservice_core.dir/src/microservice_private.cpp.o.d"
   "/home/avr/code/projects/cpp/BoostAsioMicroservice/src/request_handler.cpp" "CMakeFiles/microservice_core.dir/src/request_handler.cpp.o" "gcc" "CMakeFiles/microservice_core.dir/src/request_handler.cpp.o.d"
+  "" "libmicroservice_core.so" "gcc" "CMakeFiles/microservice_core.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

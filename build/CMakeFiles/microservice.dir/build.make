@@ -96,8 +96,7 @@ microservice_EXTERNAL_OBJECTS =
 microservice: CMakeFiles/microservice.dir/src/main.cpp.o
 microservice: CMakeFiles/microservice.dir/build.make
 microservice: CMakeFiles/microservice.dir/compiler_depend.ts
-microservice: libmicroservice_core.a
-microservice: /usr/lib/libboost_system.so.1.88.0
+microservice: libmicroservice_core.so
 microservice: CMakeFiles/microservice.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable microservice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/microservice.dir/link.txt --verbose=$(VERBOSE)

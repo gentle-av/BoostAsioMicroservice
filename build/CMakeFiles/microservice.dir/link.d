@@ -3,8 +3,7 @@ microservice: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/microservice.dir/src/main.cpp.o \
-  libmicroservice_core.a \
-  /usr/lib/libboost_system.so.1.88.0 \
+  libmicroservice_core.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libm.so \
@@ -31,6 +30,7 @@ microservice: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtendS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crtn.o \
+  /usr/lib/libboost_system.so.1.88.0 \
   /usr/lib/ld-linux-x86-64.so.2
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/Scrt1.o:
@@ -41,9 +41,7 @@ microservice: \
 
 CMakeFiles/microservice.dir/src/main.cpp.o:
 
-libmicroservice_core.a:
-
-/usr/lib/libboost_system.so.1.88.0:
+libmicroservice_core.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so:
 
@@ -96,5 +94,7 @@ libmicroservice_core.a:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtendS.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crtn.o:
+
+/usr/lib/libboost_system.so.1.88.0:
 
 /usr/lib/ld-linux-x86-64.so.2:
