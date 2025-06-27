@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/avr/code/projects/cpp/BoostAsioMicroservice/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
