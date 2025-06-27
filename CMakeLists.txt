@@ -7,7 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package(Boost 1.75 REQUIRED COMPONENTS system)
 
-add_library(microservice_core STATIC
+add_library(microservice_core SHARED
   src/request_handler.cpp
   src/microservice.cpp
   src/microservice_private.cpp
