@@ -1,5 +1,7 @@
 #include "../include/echo_handler.hpp"
-#include "request_handler.hpp"
+#include "../include/request_handler.hpp"
+#include <cstdio>
+#include <cstring>
 
 RequestHandlerString* EchoHandler::handle_request(const RequestHandlerString* request) {
     const char* req_str = RequestHandler::get_cstring(request);
