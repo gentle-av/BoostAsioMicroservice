@@ -2,8 +2,8 @@ CMakeFiles/microservice_core.dir/src/microservice.cpp.o: \
  /home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice.cpp \
  /usr/include/stdc-predef.h \
  /home/avr/code/projects/cpp/BoostAsioMicroservice/src/../include/microservice.hpp \
- /home/avr/code/projects/cpp/BoostAsioMicroservice/src/microservice_private.hpp \
- /home/avr/code/projects/cpp/BoostAsioMicroservice/src/../include/request_handler.hpp \
+ /home/avr/code/projects/cpp/BoostAsioMicroservice/src/./microservice_private.hpp \
+ /home/avr/code/projects/cpp/BoostAsioMicroservice/src/./../include/request_handler.hpp \
  /usr/include/boost/asio.hpp \
  /usr/include/boost/asio/any_completion_executor.hpp \
  /usr/include/boost/asio/detail/config.hpp /usr/include/boost/config.hpp \

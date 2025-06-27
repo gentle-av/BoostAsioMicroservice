@@ -1,5 +1,6 @@
 #pragma once
 #include "../include/request_handler.hpp"
+#include "../include/microservice.hpp"
 #include <boost/asio.hpp>
 
 class Microservice::Impl {
@@ -9,6 +10,7 @@ class Microservice::Impl {
   
 public:
   Impl(unsigned short port, RequestHandler* handler);
+  ~Impl();
   void run();
   void stop();
   void start_accept();
