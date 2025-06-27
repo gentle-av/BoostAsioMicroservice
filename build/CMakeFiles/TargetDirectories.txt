@@ -1,0 +1,4 @@
+/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles/microservice_core.dir
+/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles/microservice.dir
+/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles/edit_cache.dir
+/home/avr/code/projects/cpp/BoostAsioMicroservice/build/CMakeFiles/rebuild_cache.dir
